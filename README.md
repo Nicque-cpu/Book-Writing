@@ -32,14 +32,21 @@ This repository serves as a centralized workspace for:
 ```
 Book-Writing/
 ├── README.md           # This file
-├── books/              # Book content organized by title
-│   ├── book-1/
-│   └── book-2/
+├── books/              # Book content organized by category and title
+│   ├── technical/      # Technical books on software engineering, AI, etc.
+│   │   ├── book-1/
+│   │   └── book-2/
+│   ├── motivation/     # Motivational and personal development books
+│   ├── kids/           # Children's books and educational content
+│   └── other/          # Other categories
 ├── diagrams/           # Shared diagrams and visual assets
 │   ├── architecture/
 │   ├── flowcharts/
 │   └── concepts/
 └── resources/          # Additional resources and references
+    ├── templates/      # Document templates and style guides
+    ├── references/     # Research papers, articles, and citations
+    └── tools/          # Scripts and utilities for book writing
 ```
 
 ## 🚀 Getting Started
